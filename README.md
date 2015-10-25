@@ -5,11 +5,11 @@ Gravatar Package for Laravel 5.0
 
 installation
 ------------
-For install this package Edit your project's ```composer.json``` file to require parsidev/gravatar
+For install this package Edit your project's ```composer.json``` file to require parsidev/gravatar5.0
 
 ```php
 "require": {
-    "parsidev/gravatar": "dev-master"
+    "parsidev/gravatar5.0": "dev-master"
 },
 ```
 Now, update Composer:
