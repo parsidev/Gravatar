@@ -1,7 +1,6 @@
 {
-    "name": "parsidev/gravatar5.0",
+    "name": "parsidev/gravatar",
     "description": "",
-    "license": "MIT",
     "authors": [
         {
             "name": "Mohammad Reza",
@@ -9,8 +8,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.0.*"
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*"
     },
     "autoload": {
         "psr-0": {
