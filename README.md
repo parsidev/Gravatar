@@ -1,7 +1,7 @@
 Laravel Gravatar
 ==========
 
-Gravatar Package for Laravel 5.0
+Gravatar Package for Laravel 5.4
 
 installation
 ------------
