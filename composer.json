@@ -1,6 +1,6 @@
 {
     "name": "parsidev/gravatar",
-    "description": "",
+    "description": "Gravatar Package for Laravel 5.4",
     "authors": [
         {
             "name": "Mohammad Reza",
@@ -8,8 +8,8 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "5.2.*"
+        "php": ">=5.6.4",
+        "illuminate/support": "5.4.*"
     },
     "autoload": {
         "psr-0": {

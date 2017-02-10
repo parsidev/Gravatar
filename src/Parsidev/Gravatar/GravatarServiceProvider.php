@@ -15,7 +15,7 @@ class GravatarServiceProvider extends ServiceProvider {
     }
 
     public function register() {
-		$this->app['gravatar'] = $this->app->share(function($app)
+		$this->app['gravatar'] = $this->app->singleton(Gravatar::class, function($app)
         {
             return new Gravatar($this->app['config']);
         });
