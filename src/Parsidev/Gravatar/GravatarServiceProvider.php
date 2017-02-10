@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 
 class GravatarServiceProvider extends ServiceProvider {
 
-    protected $defer = false;
+    protected $defer = true;
 
     public function boot() {
 		$this->publishes([
@@ -15,7 +15,7 @@ class GravatarServiceProvider extends ServiceProvider {
     }
 
     public function register() {
-		$this->app['gravatar'] = $this->app->singleton(Gravatar::class, function($app)
+		$this->app->singleton('gravatar', function($app)
         {
             return new Gravatar($this->app['config']);
         });
