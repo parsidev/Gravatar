@@ -9,7 +9,7 @@ For install this package Edit your project's ```composer.json``` file to require
 
 ```php
 "require": {
-    "parsidev/gravatar5.0": "5.6.x-dev"
+    "parsidev/gravatar": "5.6.x-dev"
 },
 ```
 Now, update Composer:
