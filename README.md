@@ -1,7 +1,7 @@
 Laravel Gravatar
 ==========
 
-Gravatar Package for Laravel 5.4
+Gravatar Package for Laravel 5.6
 
 installation
 ------------
@@ -9,7 +9,7 @@ For install this package Edit your project's ```composer.json``` file to require
 
 ```php
 "require": {
-    "parsidev/gravatar5.0": "dev-master"
+    "parsidev/gravatar5.0": "5.6.x-dev"
 },
 ```
 Now, update Composer:
