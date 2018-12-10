@@ -166,11 +166,7 @@ class Gravatar
     public function saveImage($email, $destination, $size = null, $rating = null)
     {
         if ($this->exists($email)) {
-            $size = 512;
-            if (is_null($size)) {
-                $size = $this->defaultSize;
-            }
-            $this->setSize($size);
+            $this->setSize($size || $this->defaultSize);
             if (!is_null($rating)) {
                 $this->setMaxRating($rating);
             }
