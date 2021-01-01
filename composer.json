@@ -1,6 +1,7 @@
 {
     "name": "parsidev/gravatar",
     "description": "Gravatar Package for Laravel 5.6",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mohammad Reza",
